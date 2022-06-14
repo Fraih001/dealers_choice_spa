@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link href="/assets/styles.css" rel="stylesheet"/>
+        <script src="/dist/main.js" defer></script>
+        <Title>SPA To Do List</Title>
+    </head>
+    <body>
+        <h1 id="numberOfUsers"></h1>
+
+              
+
+        <main class="mainpg">
+        <div class="users-tasks">
+            <h2>Users</h2>
+            <form id="createuser">
+                <input placeholder="Add a new user!" id="createuserinput" required/>
+                <button> ADD USER </button>
+            </form>  
+            <div id='user-create'> 
+            <ul id="users-list"></ul>
+                <form id='createtask'>
+                    <input id='tasktitle' placeholder="Enter the Title of your Task!" />
+                    <textarea id='taskdescription' placeholder="Enter the Description of your Task!"></textarea>
+                    <button id='createtaskbutton'> CREATE TASK </button>
+                </form>
+            </div> 
+        </div>
+        <div class="users-tasks">
+            <h2>Tasks</h2>
+            <ul id="tasks-list"></ul>
+        </div>
+
+        <!-- <form id='edittaskform' hidden>
+                
+            <input id='edittasktitle' placeholder="Edit the Title of your Task!" />
+            <textarea id='edittaskdescription' placeholder="Edit the Description of your Task!"></textarea>
+            <button id='edittaskbutton'> EDIT TASK </button>
+        </form> -->
+        </main>
+
+    </body>
+</html>

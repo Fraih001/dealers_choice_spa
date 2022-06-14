@@ -1,0 +1,117 @@
+* {
+    /* border: 1px gold solid */
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: #E6E8E6   
+}
+
+.mainpg {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    margin: 1rem;
+    background-color: #CED0CE;
+    color: #475841;
+    font-weight: bold;
+}
+
+input {
+    margin: 1rem;
+}
+
+.users-tasks {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#createuser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 200px;
+}
+
+#users-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+    padding-left: .2rem;
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #3F403F
+}
+
+.selected a{
+    text-decoration: none;
+    background-color: #9FB8AD;
+    color: #3F403F
+}
+
+#user-create {
+    display: flex;
+    justify-content: space-between;
+}
+
+#tasks-list {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: left;
+}
+
+#li-task {
+    display: flex;
+    background-color: #9FB8AD;
+    margin: .2rem;
+    padding: .6rem;
+}
+
+#createtask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    width: 200px;
+}
+
+#editform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#editdeletebuttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#taskdesc {
+    flex: 1;
+}
